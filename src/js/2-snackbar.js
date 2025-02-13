@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }, delay);
     });
-
     promise
       .then((delay) => {
         iziToast.success({
